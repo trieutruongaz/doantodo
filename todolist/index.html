@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js"></script>
+  <title>TO DO </title>
+</head>
+
+<body>
+  <div class="container">
+    <h2> To Do List</h2>
+
+    <div id="myDIV" class="header">
+      <input type="text" id="task" class="form-control" placeholder="Thêm công việc">
+      <input type="date" id="timeBegin" class="form-control" placeholder="Ngày bắt đầu">
+      <input type="date" id="timeEnd" class="form-control" placeholder="Ngày kết thúc">
+      <button onclick="addTodo()" class="btn "> THEM</button>
+      </button>
+    </div>
+    <table class="list-container">
+      <thead>
+          <tr class="list">
+               <th scope="col">STT</th>
+              <th scope="col">Tên Công Việc</th>
+              <th scope="col"> Ngày bắt đầu</th>
+              <th scope="col"> Ngày kết thúc</th>
+              <th scope="col"> Trạng Thái</th>
+              <th scope="col"> Sửa</th>
+              <th scope="col"> Xóa</th>
+          </tr>
+      </thead>
+      <tbody id="todoList">
+      </tbody>
+  </table>
+  </div>
+  <script>
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+.container {
+    width: 100%;
+    margin: auto;
+    border-radius: 10px ;
+    border: black solid 3px;
+
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxANDQ0NDQ8PDQ0NDQ0NDQ0NDQ8NDQ0NFREWFhURFRUYHSggGBolGxUVLTEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0NFRAPFysdFR0tLS0tKy0rLS0rLS0tLSstNy0rLSstKysrLS0tNy03LS0tLSsrNzc3LS0tLS03LS0rLf/AABEIAJoBSAMBEQACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDBP/EACsQAQACAgECBgICAQUAAAAAAAABEQISAxNRBCExQWGRFHGBoVIykuHw8f/EABsBAQEBAQEAAwAAAAAAAAAAAAABAgMEBQYH/8QAKxEBAAIBAgYBBAICAwAAAAAAAAERAgMSBBMhMUFRFDJCUmFx8JGhIySx/9oADAMBAAIRAxEAPwDGGcT+33uYmH5/q8Pnp/uHTVm3ms1LLNSyzQs3Mzxx2NzrjxGpj2lmeGF3PRjx2UfVFrjwXPb5Jzdvm4VddXqnmwwisYuv4hyjHKZuXxuWnlnO7PLrLz5+Jzn0rH9RcukaePkjTxjv1cOTGcv9UzP7l0io7OsTEdmOku5d6dI3G46S7jenSNxvOkbl3mPHU3HlJM2bnr4ua/LLynvDjljXZxyw9O+rFuXWE0Wy2ZwW13JPGWu5nLhifWIn+FjKWo1Jjsz0I7Uu+Xow4zOPUnQNz048dj90Uk8S7naOK05i7Yy4/hYl5tTi7+lnoruebmWnRXcbzom43p0Tcbzom9d6dFdxvTom5d50TebzofBvWMpnsfiz2OZDrjhnPg/Ek5rrjo5eZPxY+TmS7Rox5k6GMexvluNPH0aRHtH0XLcYxHhvGGZV3wmWJebU4fTz8VLrDLyZ8FP2y1SOE8NqR4Wktjk6n4yaFrHD6k+F6ZudseEy8zR0jc7RwmMd5k6MG5v42mdGDdJ8fT9J0YNyTwuH7Ogb2J4WPEp0F3s/Fn8k/HN58XL8oX8c3r8WfyPxoTe1HC4+ZX8eDfLpGhpx4ajhjsm50jHGO0NRglpnhjnFZRZqW8mfBx9smhbhlwupHi0nAtz5Op+Mmkraxoak/bJHHJudceFznv0XopudseEjzkdCDe6Rw2H7OhBvX4+n6OhBvSeG0z8c3sTwuPiUnwxzGZ4WfGR+MvMT4uXs/FOYfFn8j8VOZLUcLHnJY8LBzJdI4fCP21Hh47Jvl0jTwjw10k3OkTEMzxLuW2MuJYyW3LPjbjJbcM8HSJbiXHOG4ahrjhJSXfGHOWZdsYYmWXSMWbRuMUtlqMUstdEss0LSzQtbNC0tdCyzQss0LLNCyzRLLXQss0LLNC0s0LLXQss1LLXVLLNSw1LLXUtLNUstdSyzUss1LLXQss0SyzQtLXUss0LLNCyzQssnAstjLjXctuOfG3GTcS8vLg7Yy3EvHyusOkLxkkvThDnLEu2MMSy6YwxLLpEJaNRDKNaiLqllmpYalhqWWallrqWWalhqllmpZa6lhqWGpaLqllmpZa6gagali6lhQhSC0BQFAUBQFBZQLQWUIUDMwWrlyQ3EtQ8fPDti6YvBzPRi6wnESsvTg5yxLvi5yy64syy6Qyy3DMjUQjLVIFAUBQLQhSBShQFAUgtAUBQFAtAUAAAICiIAAAAAAAAAkqrlyNYtQ8XO74OmLwcz0Yu0JxkkvTg5yxLti5yy64syy6wyy3DMo3DKNQIqCgAUAAAAAAgAKAAAAAAAAAAAAAAAAAJIOPJLcNQ8XNLti6w8HM9GLrBxkkvTg5yw7YsSzLrixLMukMo6QzKNwyy1AioAAAAAAAAAAAAAAAAAAAAAAAAAAAJOVeokzEd3HLxGPz9NxhLnzsXPLmxn3+/JqMZh0w1MZebmdcXoxeHld8XWDiJJejBzliXfFiWZdcWGZdIZRuGUbhGWkRpAsCwLAsCwLAsCwLAsCwLAAAAAAAAABAAAAAJmvOfYSZqLeLl5Np+PaHfHGnizznKf05S0y5cktw3Dz5cs4/MdnSMbenT1Jx/hzyziYuGoinuwyjLszxcsf9hcsZSdTF6uPkju5TEs78fbvhPaXOYLiXbFiWXWGZRvFmWW4RGoQUQsCwLAAsCwLAsCwLABLBbAsEsCwLAsCwLAsCwLAsCwSxXDxWfpj/MumEeXn18vDzW6PMzMqrjyS6Q3DycsuuLri8uWUxNw6xFu+EzHZ0wZlZd8GJc5dcWJYl2xynvLExCXMeXbHmlicYXm5Q7Yc/ePpicF53uHbHmiWJxlqNXGXTHKJ9GHSJieygWBYFgtglgWBYFgWBYFqFgWBYJYAAFgWBYFgWBYJYFgWDxcuV5TLvjFQ8Oc3lLFtMs5SquGctw3DzcjrDri8nI6w6w9mEOMpOcOuOLEyxOpDpGCWzuiW4xZtGoRmXSGWZahEW0G45Zj3+02txqZR5dMefvH0zODpGt7h0x5In0lmph2jOJ7Sto0WBYFgWoWUFgWCWBYFgAAWBYFgWBaiWBYFgWBYMcudYz39liLljUy24vHbs8STKjGUrCw45y3DcPPnDpEusPPnDcOkPVhLnLjLtjLEucuuMsSxLpCSzdNwyvMny1SNxlErqWJIUlgWBYNxyzHv9pthuNScfLceJj38mZwnw6xrx56NzzY/wCUfabZ9N83D2nWx7wbZ9JzdP2dbHubZ9HOw9nWx7wbZ9HNw9rHLHePs2yvMw9wu8d4SmoyxnytjRYFgWBYFglqFgWBYLYJYFoFgznyRjHn/wArETLOWUYx1eTk5Jym/qHaMaePPOcp6s2rKSDOSw1EOOctw1Dz5y6Q6Q4zEz6Rf6bdYi+zeEpLlLvhnLEw5zDthm5zDnMO2MsMy6YyjEtRLNM0s5wU3jnMd2MueOyxi3vhznm+KajFJzYnknu1thN0s7ytBZSGxSUtlFGyUUtlJS2FFiUWlFLsUrUcs95TbDUZ5x2luOfLv9pshqNfUjy1HiZ+E2Q6RxWXmGo8RDOyXWOKx8w3HNE+/wB+SbZdY1tOfLUZWlOkTE9jYpTYoLAsCwc8+eI97/Xm1GEyxlqYw5Z+JmfSK+fVqNP245a0z2hxnK26pxm57glLaFJMrCsZS1DURfZznGZ+Ft3x0cp/R0sY88p+/KF3T4do0sce8ueficcfLGL/AKhYwme68yI+mHPHin4/3Q3OUOM6cumPHP8A5MMzlDE6WTpjE9mbYnSzjw3GSU4z0ajmlNrEwdS0pmYWykpbBzy8laS1opbBKFRVLKSiwpbSil2KSiyiltG8dLLLtCjvjweU95otHX42lj9WRalcNH9ksP8Arfr/AGtovL4ee3/pZRPB6c9pWMinOeCyj6cm45pj3+2dkHL4jH9tx4jv/SbGo1c4+rBvHlifdnbLpjq4T+mrR0efn5/aP5n3l0xw8vPq6niHGG3BYCpEpuNPKfC2U3HD5yDpHDe5RXTk6ePdmc4go5uGPZzz5Z9moxYnWyns8+eXd0iGLvu45S3DTeGKTLllMOuPkzLlMukZs0sZ5R2lqOVNrfPz89VjOPeEo36c/Vj/AIWKn3Ops0su2VfysRPsiTwsz9MxK3PZHLLQzjwtjlMTHdjLyahqGbFpbKSiyiigSYktSIlXTHSyy7Q1GDNu2PCz900vlB1brR0/3JuUzlxU9sYTZaefLVzy7yWU50bJSUthRZRRsURcdl2SnTHW1Me0rsU7Y8XnHepLHSOMjzCwOny9Oe6oscRpe0Vedpe4Sw52l7Nil5+BsMzxEeITYYniMvEJOS05zq5z5ZmRz/lzzzbiFtyyzaiFtyyluGoccpbiG4enZzpwprZKSiJKKXZKSlsopbKSl2Sjs1HJPdNrpGrnHaWo5WdrfyMvMW11I7FHNwnvgzOePaSpXdoz9v8Af8rGWJUr/wAHqf8AZtidT/g/tm+JUm7Qj7V6kdko5+EfTidQ2sZcTn46Jl5+6x0cZ1Mp+rq5zEw1adJTZSljJKKXYpKLSil2KSiyilsKaiJRLhaRLWykLKKLQpi2qaLFospYmYSZKbjKJScymmZzXalsTk1QxOTULDnlk1ENxDnlLUQ1DnLTbvEsOVLZSUsZJSUWUUuyUU1GSUlGxSUtlFLGSUlLZSUTIOc+TToblJS9RKTa1GaUm1YzKNqxmlJTUZpTO1don1oqSpSse/8AZ1XqlR/kdfR19Na/JaX+ljGO6XJcrFJ1TquxSUbFFJstLRsFFoUbBTOUqsJa0tGxRRZRSTQsOeXl8tQ3EsTk1TVMTLVLEMTKtMysKxLTTds0zS7CUthS7JSUtlFEZJSUuxSUuyUUuxSUuyUUuxSUmckLDFtU1RYlLYUWFFpRRZQtlIWlFLsUUsZFJS9SUo2r1Ck2r1EpNq7lFG6UUuxSUbFFGxRRsUUxOS01RutFJuUUuxRRsUUxnjfosTTUS4zLbpDNrTTLQkipZQtlFGwUtpSUuxRS7FJS7JSUuxRSxklJS7FFLslJRYU5W1TdLZSUbFFGxRS7FFLslJRsUUuxRRaUlLZRRZRRYlLYUWlFFlFLZSUWUUtpRRZRRMgzbS0WFFoUtlFFlJTOcX+1jo1jNOEy26paiKIKogCoAKIILAiiLCCgqI5y02gALAgCoAgCgoAKiAKCogACiACCZKsMwqqAiKADjn6y3HZ1jsyoA//Z);
+  }
+  .container h2 {
+    text-align: center;
+    color: rgb(11, 11, 11);
+    font-size: 42px;
+   
+  }
+  /* Chiều cao, chiều dài của phần tử sẽ bao gồm cả padding mà margin của nó */
+  * {
+    box-sizing: border-box;
+  }
+  .list-container{
+    margin: auto;
+    color: yellow;
+    font-size: 20px;
+  
+
+    
+  }
+  .list th{
+   padding: 30px;
+   color: rgb(12, 12, 12);
+   background-color: rgb(254, 251, 251);
+   border-radius: 10px;
+  }
+  .list th:hover{
+    transform: translateY(-2px);
+    
+  
+  }
+  
+   
+  /* khi thẻ li được chọn thì thêm màu nền và gạch ngang chữ */
+
+  
+  /* Định dạng button xóa công việc */
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+   
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+   
+  /* phần header của danh sách */
+  .header {
+   
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }
+   
+  /* xóa float của các phần trước header */
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   
+  /* định dạng phần thẻ input */
+  input {
+    border: none;
+    width: 30%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 2px;
+  }
+   
+  /* định dạng button "thêm" */
+  .btn{
+    padding: 15px;
+    width: 8%;
+    float: left;
+    margin-top: -1px;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 10px;
+    margin-left: 2px;
+  }
+   
+  .btn:hover {
+    background-color: #3acc6d;
+  }
+  #myDIV  h2 {
+color: rgb(212, 222, 27);
+  }
+  #myDIV  h2:hover {
+    color:rgb(112, 9, 9)
+    
+  }
